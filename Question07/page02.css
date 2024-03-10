@@ -1,0 +1,27 @@
+body {
+    font-size: 1.8rem;
+}
+
+h4{
+    font-size: 2rem;
+    margin: 2% 0%;
+    margin-top: 40px;
+    color: #1f1f1f;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+#student-card{
+    width: fit-content;
+    border: 3px double rgb(97, 97, 97);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+#student-card>h3{
+    color: black;
+}
