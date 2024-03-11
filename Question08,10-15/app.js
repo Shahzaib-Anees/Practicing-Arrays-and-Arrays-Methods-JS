@@ -38,3 +38,12 @@ document.write(`<div class="card">
 <p>Cities List : ${citiesList}</p>
 <p>Selected Cities List : ${selectedCities}</p>
 </div>`)
+
+// Question no 12 
+let arr =["This " , "is " , "my " , "Cat " ]
+let arrJoint = arr.join(" ");
+document.write(`<div class="card">
+<h4>Practicing Array Join Method</h4>
+<p>Array : ${arr}</p>
+<p>String : ${arrJoint}</p>
+</div>`)
