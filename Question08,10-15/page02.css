@@ -11,18 +11,18 @@ h4{
         0px -4px 10px rgba(255, 255, 255, 0.3);
 }
 
-#student-card{
+.card{
     width: fit-content;
-    border: 3px double rgb(97, 97, 97);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 30px;
     margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#student-card>h3{
+.card>h3{
     color: black;
 }
 
