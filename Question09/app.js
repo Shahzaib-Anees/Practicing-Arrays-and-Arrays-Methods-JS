@@ -18,3 +18,4 @@ function add_end(){
     color_array.push(user_input_color);
     document.write(color_array);
 }
+
